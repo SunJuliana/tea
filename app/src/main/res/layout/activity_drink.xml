@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DrinkActivity">
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="125dp"
+        android:layout_height="65dp"
+        android:text="Липовый чай"
+        android:textColor="#000000"
+        app:backgroundTint="#F5EDB5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toEndOf="@+id/button16"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="125dp"
+        android:layout_height="65dp"
+        android:text="Какао"
+        app:backgroundTint="#582A2A"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="125dp"
+        android:layout_height="65dp"
+        android:text="Каркаде"
+        app:backgroundTint="#AC3939"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="125dp"
+        android:layout_height="65dp"
+        android:text="Зеленый чай"
+        app:backgroundTint="#7E7B22"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="390dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:text="Далее"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="28dp"
+        android:text="Напишите помощнику проводника, если Вам необходима помощь"
+        app:backgroundTint="#505050"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="195dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="32dp"
+        android:text="Какой напиток Вы выбираете?"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#505050"
+        android:textColorHint="#505050"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/a_cup_of_tea_1"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="125dp"
+        android:layout_height="65dp"
+        android:text="Черный чай"
+        app:backgroundTint="#6B4700"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="390dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="125dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:text="Цикорий"
+        app:backgroundTint="#5A3119"
+        app:layout_constraintTop_toBottomOf="@+id/button10"
+        tools:layout_editor_absoluteX="48dp" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="125dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:text="Ромашка"
+        android:textColor="#000000"
+        app:backgroundTint="#CCF9A0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toEndOf="@+id/button14"
+        app:layout_constraintTop_toBottomOf="@+id/button19" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="125dp"
+        android:layout_height="65dp"
+        android:text="Черный кофе"
+        app:backgroundTint="#020101"
+        app:layout_constraintEnd_toStartOf="@+id/button19"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="148dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
